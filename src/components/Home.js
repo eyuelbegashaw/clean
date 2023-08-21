@@ -1,13 +1,11 @@
 import {useState} from "react";
 const Home = () => {
-  const [isResponsive, setIsResponsive] = useState(false);
-
   return (
     <>
       <header>
         <div class="header-top" id="#">
           <div class="container-md">
-            <div class="d-flex justify-content-between">
+            <div class="d-md-flex justify-content-between">
               <div className="d-flex left">
                 <div className="pe-3">
                   <i class="fas fa-envelope-square pe-2"></i> ayoon@gmail.com
@@ -222,7 +220,6 @@ const Home = () => {
                   <i class="fas fa-briefcase-medical"></i>
                   <h5>Hospit Cleaning</h5>
                   <p>
-                    {" "}
                     Consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing
                     elit. Donec ut erat nec leo lobortis blandit.
                   </p>
