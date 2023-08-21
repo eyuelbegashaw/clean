@@ -6,22 +6,21 @@ const Home = () => {
     <>
       <header>
         <div class="header-top" id="#">
-          <div class="container">
+          <div class="container-md">
             <div class="d-flex justify-content-between">
-              <div class="left-item">
-                <ul>
-                  <li>
-                    <i class="fas fa-envelope-square"></i> ayoon@gmail.com
-                  </li>
-                  <li>
-                    <i class="fas fa-phone-square"></i> +971506817015
-                  </li>
-                  <li>
-                    <i class="fas fa-phone-square"></i> +971558071641
-                  </li>
-                </ul>
+              <div className="d-flex left">
+                <div className="pe-3">
+                  <i class="fas fa-envelope-square pe-2"></i> ayoon@gmail.com
+                </div>
+
+                <div className="pe-3">
+                  <i class="fas fa-phone-square"></i> +971506817015
+                </div>
+                <div>
+                  <i class="fas fa-phone-square"></i> +971558071641
+                </div>
               </div>
-              <div class="d-none d-lg-block right-item">
+              <div>
                 <div id="google_translate_element"></div>
               </div>
             </div>
@@ -235,13 +234,13 @@ const Home = () => {
       </section>
 
       <div class="copy">
-        <div class="container d-md-flex justify-content-between">
+        <div class="container d-flex justify-content-between">
           <div className="me-1">
             <a href="https://www.smarteyeapps.com/">2023 &copy; All Rights Reserved</a>
           </div>
 
           <div className="d-flex ">
-            <div className="me-3">+971506817015</div>
+            <div className="me-2">+971506817015</div>
 
             <div>+971558071641</div>
           </div>

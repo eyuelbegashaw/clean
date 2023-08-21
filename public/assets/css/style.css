@@ -221,21 +221,11 @@ body {
   overflow-x: hidden;
 }
 
-header .header-top .left-item ul li {
-  float: left;
+.left {
   color: #0d68d2;
   padding: 10px 20px;
   font-size: 0.9rem;
   font-family: "mouse-500", Arial, Helvetica, sans-serif;
-}
-header .header-top .right-item ul {
-  float: right;
-}
-header .header-top .right-item ul li {
-  float: left;
-  color: #0d68d2;
-  padding: 0px 10px;
-  font-size: 1rem;
 }
 
 /* ===================================== Slider CSS ================================== */
