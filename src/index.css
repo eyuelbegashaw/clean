@@ -159,6 +159,9 @@ input[type="checkbox"] {
   .gap {
     padding-right: 0px;
   }
+  .logo {
+    font-size: 24px;
+  }
 }
 
 .theme {

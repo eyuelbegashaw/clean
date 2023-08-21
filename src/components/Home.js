@@ -79,7 +79,7 @@ const Home = () => {
                 </div>
                 <div>
                   <a class="btn theme mt-3  w-100 fs-4" href="#contact">
-                    Contact Us
+                    Contact us
                   </a>
                 </div>
               </div>
