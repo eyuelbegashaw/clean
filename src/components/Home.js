@@ -1,4 +1,3 @@
-import {useState} from "react";
 const Home = () => {
   return (
     <>
@@ -49,7 +48,9 @@ const Home = () => {
                 <a href="#contact">Contact</a>
               </li>
               <li>
-                <button className="btn theme me-5  border border-dark w-100">Book Now</button>
+                <a href="#bookNow" className="btn theme me-5  border border-dark w-100">
+                  Book Now
+                </a>
               </li>
             </div>
           </ul>
@@ -72,7 +73,9 @@ const Home = () => {
               </p>
               <div className="m-auto d-md-lex justify-content-around">
                 <div>
-                  <button className="btn theme me-5  w-100 mt-2 fs-4">Book Now</button>
+                  <a href="#bookNow" className="btn theme me-5  w-100 mt-2 fs-4">
+                    Book Now
+                  </a>
                 </div>
                 <div>
                   <a class="btn theme mt-3  w-100 fs-4" href="#contact">
@@ -82,7 +85,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-6 d-flex justify-content-center">
-              <img src="assets/images/cleaning.png" className="image img img-fluid" alt="" />
+              <img src="assets/images/image.png" className="image img img-fluid" alt="" />
             </div>
           </div>
         </div>
@@ -139,7 +142,7 @@ const Home = () => {
       <section class="latest-features" id="service">
         <div class="container">
           <div class="inner-title">
-            <h2> Latest Features & Services</h2>
+            <h2 className="text-primary"> Latest Features & Services</h2>
             <p>Take a look at some of latest features and services provided by our team</p>
           </div>
 
@@ -233,9 +236,46 @@ const Home = () => {
         </div>
       </section>
 
-      <section id="contact" className="container formSize my-2">
+      <section className="container m-auto py-5" id="bookNow">
+        <h1 className="text-center text-primary fw-bold mb-3">BOOK NOW</h1>
+        <div className="row">
+          <div className="col-md-6 pt-4">
+            <div className="d-md-flex justify-content-between mb-3">
+              <div className="w-100 mt-3 gap">
+                <input type="text" className="px-3 py-2 w-100 formm " placeholder="Your Name" />
+              </div>
+
+              <div className="w-100 mt-3 ">
+                <input type="text" className="px-3 py-2 w-100 formm" placeholder="Your Email" />
+              </div>
+            </div>
+            <div className="d-flex">
+              <input type="text" className="px-3 py-2 w-100 formm" placeholder="Your location" />
+            </div>
+            <div>
+              <textarea
+                className="w-100 mt-4 px-3 py-2 rounded formm "
+                style={{height: 150}}
+                placeholder="Your Requirements"
+              ></textarea>
+            </div>
+            <div>
+              <div>
+                <a class="btn theme mt-3  w-100 fs-4" href="#contact">
+                  Book Now
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 d-flex justify-content-center">
+            <img src="assets/images/cleaning.png" className="image img img-fluid " alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" className="container formSize mb-3">
         <h1 className="text-center text-primary mb-3">Contact Us</h1>
-        <div className="row   justify-content-around m-auto bg-secondary mb-2 text-white px-md-4">
+        <div className="row justify-content-around m-auto bg-secondary mb-2 text-white px-md-4">
           <div className="col-md  pe-4 pt-4  mb-2">
             <div className="fw-bold text-white fw-bold fs-4">
               <i class="fa fa-envelope" aria-hidden="true"></i> Email

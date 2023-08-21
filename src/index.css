@@ -141,7 +141,12 @@ input[type="checkbox"] {
 }
 
 .formSize {
+  padding-top: 80px;
   width: 75%;
+}
+
+.gap {
+  padding-right: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -150,6 +155,9 @@ input[type="checkbox"] {
   }
   .formSize {
     width: 95%;
+  }
+  .gap {
+    padding-right: 0px;
   }
 }
 
