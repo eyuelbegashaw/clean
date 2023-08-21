@@ -140,16 +140,27 @@ input[type="checkbox"] {
   width: 85%;
 }
 
+.formSize {
+  width: 75%;
+}
+
 @media only screen and (max-width: 600px) {
   .image {
     width: 100%;
   }
+  .formSize {
+    width: 95%;
+  }
 }
 
 .theme {
-  background-color: rgb(221, 221, 5);
+  background-color: var(--back);
 }
 
 .theme2 {
   color: var(--theme2);
+}
+
+.formm {
+  border: 2px solid var(--back);
 }

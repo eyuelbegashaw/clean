@@ -46,7 +46,7 @@ const Home = () => {
               </li>
 
               <li>
-                <a href="/">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
               <li>
                 <button className="btn theme me-5  border border-dark w-100">Book Now</button>
@@ -75,7 +75,9 @@ const Home = () => {
                   <button className="btn theme me-5  w-100 mt-2 fs-4">Book Now</button>
                 </div>
                 <div>
-                  <button class="btn theme mt-3  w-100 fs-4">Contact Us</button>
+                  <a class="btn theme mt-3  w-100 fs-4" href="#contact">
+                    Contact Us
+                  </a>
                 </div>
               </div>
             </div>
@@ -133,6 +135,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       <section class="latest-features" id="service">
         <div class="container">
           <div class="inner-title">
@@ -227,6 +230,55 @@ const Home = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="contact" className="container formSize my-2">
+        <h1 className="text-center text-primary mb-3">Contact Us</h1>
+        <div className="row   justify-content-around m-auto bg-secondary mb-2 text-white px-md-4">
+          <div className="col-md  pe-4 pt-4  mb-2">
+            <div className="fw-bold text-white fw-bold fs-4">
+              <i class="fa fa-envelope" aria-hidden="true"></i> Email
+            </div>
+            <div>Ayooon@gmail.com</div>
+          </div>
+
+          <div className="col-md p-3  ms-auto mb-2">
+            <div className="fw-bold text-white fw-bold fs-4">
+              <i class="fa fa-phone" aria-hidden="true"></i> Call
+            </div>
+            <div className="pe-3">
+              <i class="fas fa-phone-square text-white pe-2"></i>+971506817015
+            </div>
+            <div>
+              <i class="fas fa-phone-square text-white pe-2"></i>+971558071641
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <input
+              type="text"
+              className="px-3 py-2 w-100 rounded-pill formm"
+              placeholder="Your Email"
+            />
+          </div>
+          <div className="mt-3">
+            <input
+              type="text"
+              className="px-3 py-2 w-100 rounded-pill formm"
+              placeholder="Subject"
+            />
+          </div>
+          <div>
+            <textarea
+              className="w-100 mt-4 px-3 py-2 rounded formm "
+              style={{height: 150}}
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <button className="btn theme text-dark w-100 fs-5">Send Message</button>
         </div>
       </section>
 
